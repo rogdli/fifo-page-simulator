@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const SchedulerUI = () => {
   const [pages, setPages] = useState([]);
   const [accessHistory, setAccessHistory] = useState([]);
-  // Capacidad de memoria se inicializa con 4 pero si quiero lo puedo cambiar.
+  // Capacidad de memoria se inicializa con 4 pero puede modificarse.
   const [memorySize, setMemorySize] = useState(4);
   const [newPage, setNewPage] = useState('');
   const [pageFaults, setPageFaults] = useState(0);
