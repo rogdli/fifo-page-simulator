@@ -1,3 +1,6 @@
+// Trabajo Final de Sistemas Operativos
+// Alumno: Rodrigo Villegas
+
 import React, { useState } from 'react';
 
 const SchedulerUI = () => {
